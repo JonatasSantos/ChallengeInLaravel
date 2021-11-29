@@ -1,0 +1,7 @@
+Aplicação que exibe os dados do clima da cidade digitada pelo usuário.
+
+Tecnologias: HTML, CSS, Javascript, Bootstrap, PHP, Laravel e MySQL.
+
+Ao carregar a aplicação, entre com a cidade que deseja saber o clima. Por padrão ela traz São Paulo.
+
+Feito isso, ela trará todos os dias da semana a contar do dia atual.
