@@ -67,7 +67,7 @@
         </div>
     <script>
         let input = document.getElementById("idInput");
-        console.log(input);
+        
         input.addEventListener("keydown", (e) => {
         
             if (e.keyCode === 13) {
@@ -78,13 +78,10 @@
 
                 if (dados != undefined) {
                     e.preventDefault();
-                // alert(input.value);
                     document.getElementById("mainContent").style.display="block";    
-                    console.log(dados); 
                 } else {
                     alert("Algum erro ocorreu.");
                 }
-                
             }
 
         });
